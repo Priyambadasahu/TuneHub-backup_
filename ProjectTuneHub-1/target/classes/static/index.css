@@ -1,0 +1,67 @@
+body{
+	background-color: #FFFDE7;
+}
+div{
+	text-align: center;
+}
+h2 {
+	 font-size: 30px;
+	 border-style:ridge;
+        background-color: #000066 ;
+        color:#FFFF66  ;
+        text-align: center;
+        /* width: 400px; */
+        height: 60px;
+        border-radius: 100px;
+        text-decoration: underline;
+        border-style: ridge;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        transition: margin-left 0.5s; /* Add transition effect to margin-left */
+        cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+h2:hover {
+    margin-left: 100px; /* Move the heading to the right by 20px on hover */
+    margin-right: 100px;
+}
+.button-container button {
+    padding: 10px 20px;
+    background-color:#CC0066 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;	
+    transition: background-color 0.3s ease; /* transition effect */
+}
+.button-container button:hover {
+    background-color: #0056b3; /* change background color on hover */
+     
+}
+
+.app-info{
+	color: red;
+	  background-color:#B2EBF2;
+	  font-family:monospace;
+	   border-radius: 10px;
+	   padding:10px;
+	   font-size: 22px;	
+}
+
+form {
+        background-color:#CCFFFF;;
+        text-align: center;
+        /* width: 400px; */
+        padding: 50px;
+        border-radius: 4px;
+        border-style: solid;
+        height: 400px;
+}
+.sng{
+	background-color:red;
+}
+
+
+
+
+     
